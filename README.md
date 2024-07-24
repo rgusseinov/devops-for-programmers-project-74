@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JS Fastify Blog
 
 [![Main](https://github.com/hexlet-components/js-fastify-blog/actions/workflows/main.yml/badge.svg)](https://github.com/hexlet-components/js-fastify-blog/actions/workflows/main.yml)
@@ -67,3 +68,7 @@ make start # Open in browser: http://localhost:8080
 This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io?utm_source=github&utm_medium=link&utm_campaign=js-fastify-blog).
 
 See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
+=======
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rgusseinov/devops-for-programmers-project-74/actions)
+>>>>>>> 43c064c6b4c95b1b21de47d3e598b7c6b360c2c2
