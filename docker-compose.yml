@@ -1,8 +1,9 @@
-version: '1.0'
+version: '3.8'
 
 services:
   app:
-    build: .
-    volumes:
-      - .:/app
+    image: ruslan0688/devops-for-programmers-project-74
+    build:
+      context: .
+      dockerfile: Dockerfile
     command: ["make", "test", "test-app"]
