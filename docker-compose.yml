@@ -6,4 +6,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.production
-    command: ["make", "test", "test-app"]
+    command: ["make", "test", "ci"]
