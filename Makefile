@@ -33,5 +33,5 @@ lint-fix:
 test:
 	NODE_ENV=test npm test -s
 
-test-app:
+ci:
 	docker-compose -f docker-compose.yml up --abort-on-container-exit --exit-code-from app
