@@ -70,3 +70,4 @@ See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
 =======
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rgusseinov/devops-for-programmers-project-74/actions)
+[![Push to Docker Hub](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/push.yml)
