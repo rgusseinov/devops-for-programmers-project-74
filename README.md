@@ -1,73 +1,40 @@
-# JS Fastify Blog
+# Project: Docker compose app
 
-[![Main](https://github.com/hexlet-components/js-fastify-blog/actions/workflows/main.yml/badge.svg)](https://github.com/hexlet-components/js-fastify-blog/actions/workflows/main.yml)
+This app is designed to help you learn the basics of Docker Compose and the basic principles of (CI).
 
-## Requirement
+## Requirements
 
-* NodeJS v20.6.1
-* Sqlite или PostgreSQL
+* docker
+* docker compose 
+* make
 
-## Commands
+## Usage
+
+#### Usage
+
+Run setup your local environment
+```bash
+make setup # Install dependencies + prepare .env file
+
+# Fill out the .env file with correct variables
+
+```
+
+### Run tests
 
 ```bash
-make install
+make test
+```
+
+### Start application
+
+```bash
 make dev
+# open http://0.0.0.0:8080 in browser
 ```
 
-## Run tests with Postgres
+### DockerHub status:
+[DockerHub](https://hub.docker.com/repository/docker/rgusseinov/devops-for-programmers-project-74/general)
 
-To run tests with Postgres, you need to edit *config/config.cjs* and under the `test` key comment out the use of SQLite and uncomment the environment variables
-
-```js
-  // test: {
-  //   dialect: 'sqlite',
-  //   storage: './database.test.sqlite',
-  // },
-  test: {
-    dialect: 'postgres',
-    database: process.env.DATABASE_NAME,
-    username: process.env.DATABASE_USERNAME,
-    password: process.env.DATABASE_PASSWORD,
-    port: process.env.DATABASE_PORT,
-    host: process.env.DATABASE_HOST,
-  },
-```
-
-Specify environment variables manually or prepare a *.env* file with the command
-
-```bash
-make prepare-env
-```
-
-In it specify the data to connect to the database
-
-```dotenv
-DATABASE_NAME=postgres
-DATABASE_USERNAME=postgres
-DATABASE_PASSWORD=postgres
-DATABASE_PORT=5432
-DATABASE_HOST=localhost
-```
-
-## Running an application with Postgres (production)
-
-Export environment variables to work with the database or prepare a *.env* file with variables
-
-Run
-
-```bash
-make build # build assets
-make start # Open in browser: http://localhost:8080
-```
-
----
-
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io?utm_source=github&utm_medium=link&utm_campaign=js-fastify-blog)
-
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io?utm_source=github&utm_medium=link&utm_campaign=js-fastify-blog).
-
-See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
-=======
-### Hexlet tests and linter status:
 [![Actions Status](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rgusseinov/devops-for-programmers-project-74/actions)
 [![Push to Docker Hub](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/push.yml)
