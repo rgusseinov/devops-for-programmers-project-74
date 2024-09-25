@@ -35,7 +35,7 @@ make dev
 ```
 
 ### DockerHub status:
-[DockerHub](https://hub.docker.com/repository/docker/rgusseinov/devops-for-programmers-project-74/general)
+[DockerHub](https://hub.docker.com/repository/docker/ruslan0688/devops-for-programmers-project-74/general)
 
 [![Actions Status](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rgusseinov/devops-for-programmers-project-74/actions)
 [![Push to Docker Hub](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/rgusseinov/devops-for-programmers-project-74/actions/workflows/push.yml)
