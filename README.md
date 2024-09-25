@@ -14,7 +14,8 @@ This app is designed to help you learn the basics of Docker Compose and the basi
 
 Run setup your local environment
 ```bash
-make setup # Install dependencies + prepare .env file
+make setup # Install dependencies
+make create-env # To create .env file
 
 # Fill out the .env file with correct variables
 
